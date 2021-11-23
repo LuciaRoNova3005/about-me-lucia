@@ -1,8 +1,12 @@
 import "../stylesheets/App.css";
-import Clublist from "./Clublist";
+import React from "react";
 
 function App() {
-  return <Clublist />;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
