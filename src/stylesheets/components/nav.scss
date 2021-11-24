@@ -1,0 +1,28 @@
+.nav {
+  background-color: $color;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: fixed;
+  width: 100%;
+  min-width: 400px;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: $color-primary;
+  border: 2px solid #fdfdfd;
+  border-radius: 15%;
+  color: $color;
+  font-weight: 900;
+}
+
+.navItem {
+  font-weight: bold;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+  color: $color-secundary;
+}
