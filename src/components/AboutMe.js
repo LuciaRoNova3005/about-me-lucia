@@ -6,14 +6,14 @@ function AboutMe() {
       <section id="aboutme" className="aboutme">
         <article className="aboutme__article">
           <h3 className="title3">Sobre mí</h3>
-          <p>
+          <p className="text">
             Con formación en publicidad y realización de audiovisuales tras
             trabajar en proyectos de IT se despertó mi interés por la
-            programación.
-          </p>
-          <p>
-            Me considero una persona trabajadora creativa, con buen humor y
-            habituda trabajar en equipo
+            programación.{" "}
+            <p>
+              Me considero una persona trabajadora creativa, con buen humor y
+              habituda trabajar en equipo
+            </p>
           </p>
         </article>
         <article className="skills">
@@ -29,7 +29,7 @@ function AboutMe() {
               <i class="icon fab fa-node-js"></i>
             </li>
             <li className="tech_item">
-              <i class="fab fa-sass"></i>
+              <i class="icon fab fa-sass"></i>
             </li>
             <li className="tech_item">
               <i class="icon fab fa-bootstrap"></i>
