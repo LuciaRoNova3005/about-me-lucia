@@ -1,10 +1,9 @@
 .cover {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 10px;
-
   background-color: $color-primary;
 
   &__text {
@@ -14,21 +13,28 @@
     text-align: center;
     &__title1 {
       color: $color;
-      font-size: 20px;
+      font-size: 30px;
       font-weight: bold;
       letter-spacing: 2px;
     }
     &__title2 {
       color: $color;
-      font-size: 14px;
+      font-size: 24px;
       padding-bottom: 10px;
       letter-spacing: 2px;
     }
   }
   &__img {
-    margin-top: 50px;
+    border: 2px solid $color;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin-top: 12px;
+    @include tablet {
+      margin-top: 50px;
+    }
+    @include desktop {
+      font-size: 22px;
+    }
   }
 }
