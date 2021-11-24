@@ -3,8 +3,10 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: $color-primary;
   padding-bottom: 10px;
+
+  background-color: $color-primary;
+
   &__text {
     display: flex;
     flex-direction: column;
@@ -16,7 +18,7 @@
       font-weight: bold;
       letter-spacing: 2px;
     }
-    &__title {
+    &__title2 {
       color: $color;
       font-size: 14px;
       padding-bottom: 10px;

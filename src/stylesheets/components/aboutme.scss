@@ -1,0 +1,54 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #591e2e;
+  letter-spacing: 2px;
+
+  &__article {
+    border-top: 1px solid $color;
+    color: $color;
+    padding: 10px;
+    line-height: 18px;
+  }
+}
+.skills {
+  border-top: 1px solid $color;
+  padding: 10px;
+}
+.title3 {
+  color: $color;
+  padding-bottom: 5px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.line {
+  height: 14px;
+}
+
+.tech_list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+}
+
+.tech_item {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 90px;
+  height: 40px;
+}
+
+.tech_icon {
+  width: 35px;
+  height: 35px;
+}
+.icon {
+  font-size: 30px;
+}
