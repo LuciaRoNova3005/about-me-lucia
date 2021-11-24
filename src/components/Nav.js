@@ -3,27 +3,25 @@ import React from "react";
 const Nav = () => {
   return (
     <nav className="nav">
-      <ul className="navList">
-        <li>
-          <div>
-            <button className="button button_es">ES</button>
-            <button className="button">EN</button>
-          </div>
-        </li>
-        <li className="navItem">
-          <a classname="nav_link" href="#aboutMe">
+      <ul className="nav__list">
+        <li className="nav__list__item">
+          <a className="nav__list__item__link" href="#aboutMe">
             About me
           </a>
         </li>
-        <li className="navItem">
-          <a classname="nav_link" href="#projects">
+        <li className="nav__list__item">
+          <a className="nav__list__item__link" href="#projects">
             Projetcs
           </a>
         </li>
-        <li className="navItem">
-          <a classname="nav_link" href="#contact">
+        <li className="nav__list__item">
+          <a className="nav__list__item__link" href="#contact">
             Contact
           </a>
+        </li>
+        <li>
+          <button className="btn es">ES</button>
+          <button className="btn en">EN</button>
         </li>
       </ul>
     </nav>

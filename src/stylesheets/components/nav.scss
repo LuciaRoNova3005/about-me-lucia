@@ -1,28 +1,32 @@
 .nav {
-  background-color: $color;
+  background-color: $color-tercery;
   padding-top: 8px;
   padding-bottom: 8px;
   position: fixed;
   width: 100%;
-  min-width: 400px;
-}
 
-.navList {
-  display: flex;
-  justify-content: space-around;
-}
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-.button {
-  background-color: $color-primary;
-  border: 2px solid #fdfdfd;
-  border-radius: 15%;
-  color: $color;
-  font-weight: 900;
-}
+    &__item {
+      letter-spacing: 3px;
 
-.navItem {
-  font-weight: bold;
-  word-spacing: 4px;
-  letter-spacing: 3px;
+      &__link {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color-secundary;
+      }
+    }
+  }
+}
+.btn {
+  background-color: $color;
+  border: 1px solid $color-secundary;
+  border-radius: 50%;
   color: $color-secundary;
+  margin: 3px;
+  padding: 2px;
+  font-weight: bold;
 }
