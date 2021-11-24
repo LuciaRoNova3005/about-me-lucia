@@ -1,0 +1,15 @@
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.fab {
+  color: $color;
+  font-size: 16px;
+}
+.far {
+  color: $color;
+  font-size: 16px;
+}
