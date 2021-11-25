@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.a1e3bf14.chunk.css",
-    "main.js": "./static/js/main.cad5d9b6.chunk.js",
-    "main.js.map": "./static/js/main.cad5d9b6.chunk.js.map",
+    "main.css": "./static/css/main.44774cd7.chunk.css",
+    "main.js": "./static/js/main.1e577362.chunk.js",
+    "main.js.map": "./static/js/main.1e577362.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.84d6ff7f.js",
     "runtime-main.js.map": "./static/js/runtime-main.84d6ff7f.js.map",
     "static/js/2.38cf403c.chunk.js": "./static/js/2.38cf403c.chunk.js",
     "static/js/2.38cf403c.chunk.js.map": "./static/js/2.38cf403c.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.a1e3bf14.chunk.css.map": "./static/css/main.a1e3bf14.chunk.css.map",
+    "static/css/main.44774cd7.chunk.css.map": "./static/css/main.44774cd7.chunk.css.map",
     "static/js/2.38cf403c.chunk.js.LICENSE.txt": "./static/js/2.38cf403c.chunk.js.LICENSE.txt",
-    "static/media/Anonymous.c28432bd.png": "./static/media/Anonymous.c28432bd.png",
-    "static/media/Lista-compra.2c2a9570.png": "./static/media/Lista-compra.2c2a9570.png",
-    "static/media/Listen-to-my-card.c939c92b.png": "./static/media/Listen-to-my-card.c939c92b.png",
-    "static/media/Pokemon.79ec4d28.png": "./static/media/Pokemon.79ec4d28.png",
-    "static/media/RickandMorty.1ff6f4fe.png": "./static/media/RickandMorty.1ff6f4fe.png",
-    "static/media/Series.b1490c81.png": "./static/media/Series.b1490c81.png"
+    "static/media/Anonymous.73c4482c.png": "./static/media/Anonymous.73c4482c.png",
+    "static/media/Lista-compra.341a3b7c.png": "./static/media/Lista-compra.341a3b7c.png",
+    "static/media/Listen-to-my-card.b4309773.png": "./static/media/Listen-to-my-card.b4309773.png",
+    "static/media/Pokemon.46dbc936.png": "./static/media/Pokemon.46dbc936.png",
+    "static/media/RickandMorty.282aa32b.png": "./static/media/RickandMorty.282aa32b.png",
+    "static/media/Series.7151a516.png": "./static/media/Series.7151a516.png"
   },
   "entrypoints": [
     "static/js/runtime-main.84d6ff7f.js",
     "static/js/2.38cf403c.chunk.js",
-    "static/css/main.a1e3bf14.chunk.css",
-    "static/js/main.cad5d9b6.chunk.js"
+    "static/css/main.44774cd7.chunk.css",
+    "static/js/main.1e577362.chunk.js"
   ]
 }
