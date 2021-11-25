@@ -1,0 +1,22 @@
+.footer {
+  border-top: 1px solid $color;
+  background-color: $color-secundary;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+  &__tittle3 {
+    color: $color;
+  }
+  &__link {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+  }
+  &__copy {
+    color: $color;
+  }
+}
