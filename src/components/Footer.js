@@ -1,27 +1,28 @@
-import { useState } from "react";
-
-function Clubs(props) {
-  const [collapsable, setcollapsable] = useState("hidden");
-
-  const handleSelect = () => {
-    if (collapsable === "hidden") {
-      setcollapsable("");
-    } else {
-      setcollapsable("hidden");
-    }
-  };
-
+const Footer = () => {
   return (
-    <div>
-      <i className={props.icon}> </i>
-      <h2 onClick={handleSelect}>{props.name}</h2>
-      <ul className={collapsable}>
-        {props.members.map((element) => (
-          <li>{element}</li>
-        ))}
-      </ul>
-    </div>
+    <footer id="contact" className="footer">
+      <div className="">
+        <a
+          href="mailto:lucia.r.nova@gmail.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>
+            <i class="far fa-envelope"></i>
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/luciarodrigueznova/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>
+            <i className="fab fa-linkedin-in"></i>
+          </span>
+        </a>
+      </div>
+    </footer>
   );
-}
+};
 
-export default Clubs;
+export default Footer;
