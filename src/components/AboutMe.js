@@ -4,18 +4,6 @@ function AboutMe() {
   return (
     <>
       <section id="aboutme" className="aboutme">
-        <article className="aboutme__article">
-          <h3 className="title3">Sobre mí</h3>
-          <p className="text">
-            Con formación en publicidad y realización de audiovisuales tras
-            trabajar en proyectos de IT se despertó mi interés por la
-            programación.
-          </p>
-          <p className="text">
-            Me considero una persona trabajadora creativa, con buen humor y
-            habituda trabajar en equipo
-          </p>
-        </article>
         <article className="aboutme__skills">
           <h3 className="title3">Skills</h3>
           <ul className="aboutme__skills__list">
@@ -47,6 +35,18 @@ function AboutMe() {
               <i class="icon fas fa-database"></i>
             </li>
           </ul>
+        </article>
+        <article className="aboutme__article">
+          <h3 className="title3">Sobre mí</h3>
+          <p className="text">
+            Con formación en publicidad y realización de audiovisuales tras
+            trabajar en proyectos de IT se despertó mi interés por la
+            programación.
+          </p>
+          <p className="text">
+            Me considero una persona trabajadora creativa, con buen humor y
+            habituda trabajar en equipo
+          </p>
         </article>
       </section>
     </>
