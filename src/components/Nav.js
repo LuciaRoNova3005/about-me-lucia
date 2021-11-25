@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__list__item">
-          <a className="nav__list__item__link" href="#aboutMe">
+          <a className="nav__list__item__link" href="#aboutme">
             About me
           </a>
         </li>

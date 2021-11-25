@@ -1,0 +1,50 @@
+.projects {
+  border-top: 1px solid $color;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #591e2e;
+  justify-content: center;
+  color: $color;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    &__img {
+      width: 50%;
+      height: 75%;
+      margin: auto;
+      border: 2px solid $color;
+      border-radius: 25%;
+    }
+    &__text {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+}
+.iconlink {
+  color: $color;
+  font-size: 16px;
+  padding: 5px;
+}
+.title4 {
+  color: $color-tercery;
+  padding-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.others_proyects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  color: $color;
+}
+.text2 {
+  color: $color;
+}

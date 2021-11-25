@@ -5,7 +5,7 @@ import Project from "../components/Project";
 function ProjectList() {
   const projectsElements = projects.map((project) => {
     return (
-      <li className="" key={project.id}>
+      <li className="projects__list__item" key={project.id}>
         <Project
           id={project.id}
           name={project.title}
@@ -21,7 +21,17 @@ function ProjectList() {
 
   return (
     <section className="projects" id="projects">
-      <ul className="">{projectsElements}</ul>
+      <h3 className="title3 ">Projects</h3>
+      <ul className="projects__list">{projectsElements}</ul>
+      <article className="others_proyects">
+        <h3 className="title4 ">Otros proyectos</h3>
+        <a className="text2" href="https://www.jaenparaisointerior.es/">
+          <p className="text">
+            Jaén Paráiso Interior // Liferay
+            <i class="iconlink fas fa-laptop-code"></i>
+          </p>
+        </a>
+      </article>
     </section>
   );
 }
