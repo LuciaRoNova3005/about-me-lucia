@@ -20,7 +20,7 @@ function ProjectList() {
   });
 
   return (
-    <section>
+    <section className="projects" id="projects">
       <ul className="">{projectsElements}</ul>
     </section>
   );
