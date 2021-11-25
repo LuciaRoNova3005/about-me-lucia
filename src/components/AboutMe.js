@@ -37,7 +37,7 @@ function AboutMe() {
           </ul>
         </article>
         <article className="aboutme__article">
-          <h3 className="title3">Sobre mí</h3>
+          <h3 className="title3">Sobre mi</h3>
           <p className="text">
             Con formación en publicidad y realización de audiovisuales tras
             trabajar en proyectos de IT se despertó mi interés por la
