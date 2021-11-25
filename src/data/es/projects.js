@@ -1,4 +1,3 @@
-import React from "react";
 import Rick from "../img/RickandMorty.png";
 import Series from "../img/Series.png";
 import Listen from "../img/Listen-to-my-card.png";
@@ -6,7 +5,7 @@ import Pokemon from "../img/Pokemon.png";
 import Compra from "../img/Lista-compra.png";
 import Anonymous from "../img/Anonymous.png";
 
-const projectsList = [
+const projects = [
   {
     id: 1,
     title: "Rick and Morty",
@@ -69,4 +68,4 @@ const projectsList = [
     tools: "Html, Sass, Css",
   },
 ];
-export default projectsList;
+export default projects;
