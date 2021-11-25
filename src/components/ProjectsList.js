@@ -5,15 +5,15 @@ import Project from "../components/Project";
 function ProjectList() {
   const projectsElements = projects.map((project) => {
     return (
-      <li className="card" key={project.id}>
+      <li className="" key={project.id}>
         <Project
-          id={projects.id}
-          title={projects.title}
-          img={projects.img}
-          description={projects.description}
-          web={projects.website}
-          git={projects.githubUrl}
-          tools={projects.tools}
+          id={project.id}
+          name={project.title}
+          img={project.img}
+          description={project.description}
+          web={project.website}
+          git={project.githubUrl}
+          tools={project.tools}
         />
       </li>
     );
