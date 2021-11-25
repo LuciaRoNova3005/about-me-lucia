@@ -53,7 +53,7 @@ const projects = [
     title: "Tienda de camisetas",
     img: Compra,
     description:
-      "Tienda online de camisetas. Se pueden añadir los artículo a la cesta y ver los detalles  de la compra",
+      "Tienda online de camisetas. Se pueden añadir los artículos a la cesta y ver los detalles  de la compra",
     website: "https://luciaronova3005.github.io/t-shirt-shop/",
     githubUrl: "https://github.com/LuciaRoNova3005/t-shirt-shop",
     tools: "JavaScript, Sass, Css",
