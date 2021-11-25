@@ -9,42 +9,42 @@ function AboutMe() {
           <p className="text">
             Con formación en publicidad y realización de audiovisuales tras
             trabajar en proyectos de IT se despertó mi interés por la
-            programación.{" "}
-            <p>
-              Me considero una persona trabajadora creativa, con buen humor y
-              habituda trabajar en equipo
-            </p>
+            programación.
+          </p>
+          <p className="text">
+            Me considero una persona trabajadora creativa, con buen humor y
+            habituda trabajar en equipo
           </p>
         </article>
-        <article className="skills">
+        <article className="aboutme__skills">
           <h3 className="title3">Skills</h3>
-          <ul className="tech_list">
-            <li className="tech_item">
+          <ul className="aboutme__skills__list">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-html5"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-css3-alt"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-node-js"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-sass"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-bootstrap"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-js"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-react"></i>
             </li>
-            <li className="tech_item">
+            <li className="aboutme__skills__list__item">
               <i class="icon fab fa-gulp"></i>
             </li>
-            <li className="tech_item">
-              <i class=" icon fab fa-git"></i>
+            <li className="aboutme__skills__list__item">
+              <i class="icon fas fa-database"></i>
             </li>
           </ul>
         </article>

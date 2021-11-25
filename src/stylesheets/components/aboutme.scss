@@ -12,11 +12,26 @@
     padding: 10px;
     line-height: 18px;
   }
+  &__skills {
+    border-top: 1px solid $color;
+    padding: 10px;
+    &__list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding-top: 20px;
+      &__item {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 90px;
+        height: 40px;
+      }
+    }
+  }
 }
-.skills {
-  border-top: 1px solid $color;
-  padding: 10px;
-}
+
 .title3 {
   color: $color;
   padding-bottom: 5px;
@@ -27,31 +42,11 @@
 .text {
   font-size: 14px;
 }
-.line {
-  height: 14px;
-}
+// .line {
+//   height: 14px;
+// }
 
-.tech_list {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-top: 20px;
-}
-
-.tech_item {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  border-radius: 50%;
-  width: 90px;
-  height: 40px;
-}
-
-.tech_icon {
-  width: 35px;
-  height: 35px;
-}
 .icon {
   font-size: 30px;
+  color: $color;
 }
