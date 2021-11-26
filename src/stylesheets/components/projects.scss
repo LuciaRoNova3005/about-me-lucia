@@ -13,6 +13,7 @@
     justify-content: center;
     text-align: center;
     padding: 10px;
+
     &__img {
       width: 50%;
       height: 75%;
@@ -21,7 +22,7 @@
       border-radius: 15%;
     }
     &__text {
-      padding: 15px 5px 5px 5px;
+      padding: 15px 5px 15px 5px;
       font-size: 14px;
     }
   }
