@@ -21,9 +21,9 @@ const Footer = () => {
           <i className="fab fa-linkedin-in"></i>
         </a>
       </div>
-      <h3 className="footer__tittle3">
+      <p className="footer__tittle3">
         No dudes en contactar conmigo ¡hablemos!
-      </h3>
+      </p>
       <div className="footer__copy">
         <p className="">&copy; 2021 Lucía Rodríguez Nova</p>
       </div>

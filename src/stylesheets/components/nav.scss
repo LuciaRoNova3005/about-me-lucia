@@ -4,7 +4,10 @@
   padding-bottom: 8px;
   position: fixed;
   width: 100%;
-
+  @include tablet {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
   &__list {
     display: flex;
     align-items: center;
@@ -14,6 +17,9 @@
     &__item {
       letter-spacing: 3px;
       font-size: 12px;
+      @include tablet {
+        font-size: 14px;
+      }
 
       &__link {
         text-transform: uppercase;
@@ -32,4 +38,7 @@
   padding: 2px;
   font-weight: bold;
   font-size: 10px;
+  @include tablet {
+    font-size: 16px;
+  }
 }

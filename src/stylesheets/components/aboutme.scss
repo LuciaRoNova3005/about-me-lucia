@@ -21,6 +21,10 @@
       grid-template-columns: repeat(3, 1fr);
       padding-top: 20px;
       padding: 15px;
+      @include tablet {
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+      }
 
       &__item {
         display: flex;
@@ -41,13 +45,22 @@
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
+  @include tablet {
+    font-size: 24px;
+  }
 }
 .text {
   font-size: 14px;
   padding-top: 5px;
+  @include tablet {
+    font-size: 16px;
+  }
 }
 
 .icon {
   font-size: 30px;
   color: $color;
+  @include tablet {
+    font-size: 34px;
+  }
 }

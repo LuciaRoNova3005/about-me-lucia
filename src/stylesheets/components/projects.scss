@@ -8,11 +8,11 @@
   color: $color;
 
   &__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    padding: 10px;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+    }
 
     &__img {
       width: 50%;
@@ -20,10 +20,15 @@
       margin: auto;
       border: 2px solid $color;
       border-radius: 15%;
+      padding: 10px;
+      @include tablet {
+        width: 25%;
+        height: 50%;
+      }
     }
-    &__text {
-      padding: 15px 5px 15px 5px;
-      font-size: 14px;
+    &__items {
+      display: flex;
+      flex-direction: column;
     }
   }
 }
@@ -31,13 +36,20 @@
   color: $color;
   font-size: 16px;
   padding: 5px;
+  @include tablet {
+    font-size: 20px;
+  }
 }
 .title4 {
   color: $color-tercery;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
+  @include tablet {
+    font-size: 20px;
+  }
 }
 .others_proyects {
   display: flex;
@@ -48,4 +60,11 @@
 }
 .text2 {
   color: $color;
+}
+.text {
+  padding: 10px 5px 10px 5px;
+  font-size: 14px;
+}
+.text_others {
+  font-size: 14px;
 }
