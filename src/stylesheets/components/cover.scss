@@ -22,6 +22,7 @@
       letter-spacing: 2px;
       @include tablet {
         font-size: 36px;
+        padding-bottom: 10px;
       }
       @include desktop {
       }
@@ -33,7 +34,7 @@
       letter-spacing: 2px;
     }
     @include tablet {
-      font-size: 28px;
+      font-size: 30px;
     }
   }
   &__img {
