@@ -15,12 +15,13 @@
     border-top: 1px solid $color;
   }
   &__skills {
-    padding: 10px;
+    margin: auto;
     &__list {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       padding-top: 20px;
-      padding-left: 30px;
+      padding: 15px;
+
       &__item {
         display: flex;
         flex-direction: column;

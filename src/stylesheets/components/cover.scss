@@ -3,9 +3,13 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 10px;
+  padding: 15px;
   background-color: $color-primary;
-
+  @include tablet {
+    flex-direction: row;
+  }
+  @include desktop {
+  }
   &__text {
     display: flex;
     flex-direction: column;
@@ -16,12 +20,20 @@
       font-size: 30px;
       font-weight: bold;
       letter-spacing: 2px;
+      @include tablet {
+        font-size: 36px;
+      }
+      @include desktop {
+      }
     }
     &__title2 {
       color: $color;
       font-size: 24px;
       padding-bottom: 10px;
       letter-spacing: 2px;
+    }
+    @include tablet {
+      font-size: 28px;
     }
   }
   &__img {
@@ -32,9 +44,10 @@
     margin-top: 12px;
     @include tablet {
       margin-top: 50px;
+      width: 200px;
+      height: 200px;
     }
     @include desktop {
-      font-size: 22px;
     }
   }
 }
