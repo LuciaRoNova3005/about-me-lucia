@@ -21,7 +21,7 @@ function ProjectList() {
 
   return (
     <section className="projects" id="projects">
-      <h3 className="title3 ">Projects</h3>
+      <h3 className="title3 ">Proyectos</h3>
       <ul className="projects__list">{projectsElements}</ul>
       <article className="others_proyects">
         <h3 className="title4 ">Otros proyectos</h3>

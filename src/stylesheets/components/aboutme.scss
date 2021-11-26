@@ -4,16 +4,17 @@
   text-align: center;
   justify-content: center;
   background-color: #591e2e;
+  padding: 10px;
   letter-spacing: 2px;
+  border-top: 1px solid $color;
 
   &__article {
-    border-top: 1px solid $color;
     color: $color;
-    padding: 10px;
+    padding: 15px;
     line-height: 18px;
+    border-top: 1px solid $color;
   }
   &__skills {
-    border-top: 1px solid $color;
     padding: 10px;
     &__list {
       display: grid;
@@ -42,6 +43,7 @@
 }
 .text {
   font-size: 14px;
+  padding-top: 5px;
 }
 
 .icon {
