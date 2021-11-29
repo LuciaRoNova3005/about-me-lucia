@@ -53,6 +53,10 @@
 }
 .fa-arrow-up {
   padding-top: 5px;
+  &:hover {
+    text-shadow: grey 0.1em 0.1em 0.2em;
+    transform: scale(1.2);
+  }
 }
 @keyframes movedownup {
   from {
