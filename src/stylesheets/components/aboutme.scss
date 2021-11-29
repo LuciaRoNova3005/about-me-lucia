@@ -3,7 +3,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  background-color: #591e2e;
+  background-color: $color-secundary;
   letter-spacing: 2px;
   border-top: 1px solid $color;
 
@@ -54,6 +54,7 @@
   }
 }
 .text {
+  color: $color;
   font-size: 14px;
   padding-top: 10px;
   @include tablet {

@@ -1,6 +1,6 @@
 .footer {
   border-top: 1px solid $color;
-  background-color: $color-secundary;
+  background-color: $color-primary;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -15,13 +15,20 @@
       font-size: 18px;
     }
   }
-  &__link {
+  &__item {
     display: flex;
     flex-direction: row;
+    text-align: center;
     padding: 10px;
     justify-content: center;
+    &__link {
+      color: $color;
+      padding: 10px;
+    }
   }
   &__copy {
+    margin: 20px;
     color: $color;
+    text-align: right;
   }
 }
