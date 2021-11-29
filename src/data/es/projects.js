@@ -28,10 +28,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Listen to my Card <código heredado/>",
+    title: "Listen to my Card",
     img: Listen,
     description:
-      "Proyecto de equipo [refactorización de código) con el que puedes crear, personalizar, enviar y guardar tus tarjetas",
+      "Proyecto de equipo (refactorización de código) con el que puedes crear, personalizar, enviar y guardar tus tarjetas",
     website: "https://listentomycard.herokuapp.com/#/",
     githubUrl:
       "https://github.com/LuciaRoNova3005/listen-to-my-card-REACT-codigo-heredado",

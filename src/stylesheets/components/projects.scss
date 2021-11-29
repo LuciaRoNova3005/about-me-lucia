@@ -1,37 +1,57 @@
 .projects {
   border-top: 1px solid $color;
-  display: flex;
-  flex-direction: column;
   padding: 15px;
   background-color: #591e2e;
   justify-content: center;
   color: $color;
-
-  &__item {
+  text-align: center;
+  @include tablet {
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     @include tablet {
+      margin-top: 10px;
+    }
+    &__infor {
       display: flex;
       flex-direction: column;
-    }
-
-    &__img {
-      width: 50%;
-      height: 75%;
-      margin: auto;
-      border: 2px solid $color;
-      border-radius: 15%;
-      padding: 10px;
+      text-align: center;
       @include tablet {
-        width: 25%;
-        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
       }
-    }
-    &__items {
-      display: flex;
-      flex-direction: column;
+      &__img {
+        width: 50%;
+        height: 75%;
+        margin: auto;
+        border: 2px solid $color;
+        border-radius: 15%;
+        @include tablet {
+          width: auto;
+          height: 120px;
+          margin: 10px;
+        }
+      }
+      &__text {
+        @include tablet {
+          padding-top: 20px;
+          text-align: center;
+          width: 50%;
+        }
+        &__link {
+          padding: 10px;
+          @include tablet {
+          }
+        }
+      }
     }
   }
 }
+
 .iconlink {
   color: $color;
   font-size: 16px;
@@ -45,7 +65,6 @@
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 18px;
-  text-align: center;
   font-weight: bold;
   @include tablet {
     font-size: 20px;
@@ -61,8 +80,7 @@
 .text2 {
   color: $color;
 }
-.text {
-  padding: 10px 5px 10px 5px;
+.tools {
   font-size: 14px;
 }
 .text_others {
