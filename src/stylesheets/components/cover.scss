@@ -5,11 +5,11 @@
   align-items: center;
   padding: 15px;
   background-color: $color-primary;
-  height: 100vh;
 
   @include tablet {
     flex-direction: row;
     padding-top: 20px;
+    height: 100vh;
   }
   @include desktop {
   }
@@ -18,7 +18,12 @@
     flex-direction: column;
     margin-top: 50px;
     text-align: center;
-    animation: moveLeft ease 2s;
+
+    @include tablet {
+      font-size: 32px;
+      padding-bottom: 10px;
+      animation: moveLeft ease 2s;
+    }
     &__title1 {
       color: $color;
       font-size: 30px;
@@ -48,11 +53,12 @@
     width: 100px;
     height: 100px;
     margin-top: 12px;
-    animation: moveLeft ease 2s;
+
     @include tablet {
       margin-top: 50px;
       width: 200px;
       height: 200px;
+      animation: moveLeft ease 2s;
     }
     @include desktop {
     }
