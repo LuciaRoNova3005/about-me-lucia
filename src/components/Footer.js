@@ -1,6 +1,11 @@
 const Footer = () => {
   return (
     <footer id="contact" className="footer">
+      <div className="arrow">
+        <a href="#header">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
       <h3 className="title3">Contacto</h3>
       <p className="footer__tittle3">
         No dudes en contactar conmigo ¡hablemos!

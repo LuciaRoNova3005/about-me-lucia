@@ -7,6 +7,7 @@
   justify-content: center;
   align-content: space-around;
   text-align: center;
+
   &__tittle3 {
     color: $color;
     margin: 10px;
@@ -36,5 +37,28 @@
     color: $color;
     text-align: right;
     font-size: 8px;
+  }
+}
+.arrow {
+  text-decoration: none;
+  background-color: $color;
+  width: 20px;
+  height: 20px;
+  border-radius: 22.5px;
+  margin: auto;
+  transform: translate(0, -90%);
+  border: none;
+  text-align: center;
+  animation: movedownup 1s infinite;
+}
+.fa-arrow-up {
+  padding-top: 5px;
+}
+@keyframes movedownup {
+  from {
+    transform: translateY(-60%);
+  }
+  to {
+    transform: translateY(-100%);
   }
 }

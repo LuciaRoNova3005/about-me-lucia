@@ -58,3 +58,13 @@
     }
   }
 }
+@keyframes moveLeft {
+  from {
+    transform: translate(-300px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 100%;
+  }
+}
