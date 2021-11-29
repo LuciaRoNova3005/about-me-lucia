@@ -9,6 +9,9 @@ function LinkContact() {
         <span>
           <i className="fab fa-github"></i>
         </span>
+        <span>
+          <p className="linkContainer__text">Ir a github</p>
+        </span>
       </a>
       <a
         href="https://www.linkedin.com/in/luciarodrigueznova/"
@@ -17,6 +20,9 @@ function LinkContact() {
       >
         <span>
           <i className="fab fa-linkedin-in"></i>
+          <span>
+            <p className="linkContainer__text">Ver linkedin</p>
+          </span>
         </span>
       </a>
       <a
@@ -26,6 +32,9 @@ function LinkContact() {
       >
         <span className="">
           <i className="far fa-file-pdf"></i>
+        </span>
+        <span>
+          <p className="linkContainer__text">Descargar cv</p>
         </span>
       </a>
     </div>
