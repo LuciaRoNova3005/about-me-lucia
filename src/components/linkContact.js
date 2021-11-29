@@ -5,6 +5,7 @@ function LinkContact() {
         href="https://github.com/LuciaRoNova3005/"
         target="_blank"
         rel="noreferrer"
+        className="linkContainer__link"
       >
         <span>
           <i className="fab fa-github"></i>
@@ -17,6 +18,7 @@ function LinkContact() {
         href="https://www.linkedin.com/in/luciarodrigueznova/"
         target="_blank"
         rel="noreferrer"
+        className="linkContainer__link"
       >
         <span>
           <i className="fab fa-linkedin-in"></i>
@@ -29,6 +31,7 @@ function LinkContact() {
         href="./CV-Lucia-Rodriguez-Nova-frontend-development.pdf"
         target="_blank"
         rel="noreferrer"
+        className="linkContainer__link"
       >
         <span className="">
           <i className="far fa-file-pdf"></i>

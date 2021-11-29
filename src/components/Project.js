@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <article className="projects__card" id={props.id} key={props.id}>
       <div className="projects__card__infor">
-        <a href={props.web}>
+        <a href={props.web} target="_blank" rel="noreferrer">
           <img
             className="projects__card__infor__img"
             src={props.img}

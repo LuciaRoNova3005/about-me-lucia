@@ -19,6 +19,7 @@
       display: flex;
       flex-direction: column;
       text-align: center;
+
       @include tablet {
         display: flex;
         flex-direction: row;
@@ -31,6 +32,10 @@
         margin: auto;
         border: 2px solid $color;
         border-radius: 15%;
+        &:hover {
+          border: 6px solid $color;
+        }
+
         @include tablet {
           width: auto;
           height: 160px;
@@ -43,10 +48,6 @@
           text-align: center;
           width: 50%;
         }
-        &__link {
-          @include tablet {
-          }
-        }
       }
     }
   }
@@ -56,6 +57,9 @@
   color: $color;
   font-size: 16px;
   padding: 5px;
+  &:hover {
+    transform: scale(1.2);
+  }
   @include tablet {
     font-size: 20px;
   }
@@ -78,10 +82,27 @@
 }
 .text2 {
   color: $color;
+  &:hover {
+    text-shadow: grey 0.1em 0.1em 0.2em;
+    transform: scale(1.2);
+  }
 }
 .tools {
   font-size: 14px;
 }
 .text_others {
   font-size: 14px;
+  padding: 10px;
+  @include tablet {
+    font-size: 16px;
+  }
+}
+.iconlink2 {
+  color: $color;
+  font-size: 16px;
+  padding: 5px;
+
+  @include tablet {
+    font-size: 20px;
+  }
 }

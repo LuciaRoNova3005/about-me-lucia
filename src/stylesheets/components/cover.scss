@@ -5,6 +5,8 @@
   align-items: center;
   padding: 15px;
   background-color: $color-primary;
+  height: 100vh;
+
   @include tablet {
     flex-direction: row;
     padding-top: 20px;
@@ -16,11 +18,13 @@
     flex-direction: column;
     margin-top: 50px;
     text-align: center;
+    animation: moveLeft ease 2s;
     &__title1 {
       color: $color;
       font-size: 30px;
       font-weight: bold;
       letter-spacing: 2px;
+
       @include tablet {
         font-size: 32px;
         padding-bottom: 10px;
@@ -44,6 +48,7 @@
     width: 100px;
     height: 100px;
     margin-top: 12px;
+    animation: moveLeft ease 2s;
     @include tablet {
       margin-top: 50px;
       width: 200px;

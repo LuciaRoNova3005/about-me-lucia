@@ -28,7 +28,7 @@ function ProjectList() {
         <a className="text2" href="https://www.jaenparaisointerior.es/">
           <p className="text_others">
             Jaén Paraíso Interior // Liferay
-            <i class="iconlink fas fa-laptop-code"></i>
+            <i class="iconlink2 fas fa-laptop-code"></i>
           </p>
         </a>
       </article>

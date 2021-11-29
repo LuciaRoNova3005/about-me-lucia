@@ -2,7 +2,9 @@ const Footer = () => {
   return (
     <footer id="contact" className="footer">
       <h3 className="title3">Contacto</h3>
-
+      <p className="footer__tittle3">
+        No dudes en contactar conmigo ¡hablemos!
+      </p>
       <div className="footer__item">
         <a
           className="footer__item__link"
@@ -23,12 +25,10 @@ const Footer = () => {
           <p className="">Linkedin</p>
         </a>
       </div>
-      <p className="footer__tittle3">
-        No dudes en contactar conmigo ¡hablemos!
-      </p>
-      <div className="footer__copy">
+
+      <small className="footer__copy">
         <p className="">&copy; 2021 Lucía Rodríguez Nova</p>
-      </div>
+      </small>
     </footer>
   );
 };

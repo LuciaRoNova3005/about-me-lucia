@@ -17,6 +17,7 @@
     &__item {
       letter-spacing: 3px;
       font-size: 12px;
+
       @include tablet {
         font-size: 14px;
       }
@@ -25,6 +26,9 @@
         text-transform: uppercase;
         font-weight: bold;
         color: $color;
+        &:hover {
+          text-shadow: $color-primary 0.1em 0.1em 0.2em;
+        }
       }
     }
   }

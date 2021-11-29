@@ -9,6 +9,12 @@
     font-size: 12px;
     margin: 5px;
   }
+  &__link {
+    &:hover {
+      text-shadow: grey 0.1em 0.1em 0.2em;
+      transform: scale(1.2);
+    }
+  }
 }
 .fab {
   color: $color;
