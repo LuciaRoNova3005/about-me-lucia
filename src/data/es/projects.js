@@ -11,7 +11,7 @@ const projects = [
     title: "Rick and Morty",
     img: Rick,
     description:
-      "Página web responsive en la que puedes buscar, filtrar y ver con detalle los personajes de la serie Rick and Morty.",
+      "Página web responsive en la que puedes buscar, filtrar y ver con detalle los personajes de la serie",
     website: "https://luciaronova3005.github.io/search-REACT/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/search-REACT",
     tools: "JavaScript, React, Css, Sass",

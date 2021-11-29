@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <>
-      <section id="aboutme" className="aboutme">
+      <section className="aboutme">
         <article className="aboutme__skills">
           <h3 className="title3">Skills</h3>
           <ul className="aboutme__skills__list">
@@ -36,7 +36,7 @@ function AboutMe() {
             </li>
           </ul>
         </article>
-        <article className="aboutme__article">
+        <article id="aboutme" className="aboutme__article">
           <h3 className="title3">Sobre mi</h3>
           <p className="text">
             Con formación en publicidad y realización de audiovisuales tras
@@ -45,7 +45,7 @@ function AboutMe() {
           </p>
           <p className="text">
             Me considero una persona trabajadora creativa, con buen humor y
-            habituda trabajar en equipo
+            habituada trabajar en equipo
           </p>
         </article>
       </section>

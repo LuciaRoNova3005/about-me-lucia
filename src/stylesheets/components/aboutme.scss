@@ -4,7 +4,6 @@
   text-align: center;
   justify-content: center;
   background-color: #591e2e;
-  padding: 10px;
   letter-spacing: 2px;
   border-top: 1px solid $color;
 
@@ -15,6 +14,7 @@
     border-top: 1px solid $color;
   }
   &__skills {
+    padding: 15px;
     margin: auto;
     &__list {
       display: grid;
@@ -24,6 +24,10 @@
       @include tablet {
         grid-column-gap: 30px;
         grid-row-gap: 30px;
+      }
+      @include desktop {
+        grid-column-gap: 80px;
+        grid-row-gap: 80px;
       }
 
       &__item {
@@ -51,9 +55,10 @@
 }
 .text {
   font-size: 14px;
-  padding-top: 5px;
+  padding-top: 10px;
   @include tablet {
     font-size: 16px;
+    padding-top: 20px;
   }
 }
 
@@ -62,5 +67,8 @@
   color: $color;
   @include tablet {
     font-size: 34px;
+  }
+  @include desktop {
+    font-size: 50px;
   }
 }

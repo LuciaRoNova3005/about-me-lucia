@@ -3,7 +3,6 @@ import React from "react";
 function Project(props) {
   return (
     <article className="projects__card" id={props.id} key={props.id}>
-      <h4 className="title4">{props.name}</h4>
       <div className="projects__card__infor">
         <a href={props.web}>
           <img
@@ -13,6 +12,7 @@ function Project(props) {
           />
         </a>
         <div className="projects__card__infor__text">
+          <h4 className="title4">{props.name}</h4>
           <p className="text">{props.description}</p>
           <div className="projects__card__infor__text__link">
             <a href={props.git} target="_blank" rel="noreferrer">

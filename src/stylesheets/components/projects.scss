@@ -11,8 +11,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 15px;
     @include tablet {
-      margin-top: 10px;
+      margin: 30px;
     }
     &__infor {
       display: flex;
@@ -32,18 +33,17 @@
         border-radius: 15%;
         @include tablet {
           width: auto;
-          height: 120px;
-          margin: 10px;
+          height: 160px;
         }
       }
       &__text {
+        padding: 10px;
+
         @include tablet {
-          padding-top: 20px;
           text-align: center;
           width: 50%;
         }
         &__link {
-          padding: 10px;
           @include tablet {
           }
         }
@@ -62,8 +62,7 @@
 }
 .title4 {
   color: $color-tercery;
-  padding-bottom: 10px;
-  padding-top: 10px;
+
   font-size: 18px;
   font-weight: bold;
   @include tablet {
