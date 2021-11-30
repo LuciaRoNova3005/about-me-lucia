@@ -22,7 +22,7 @@
     @include tablet {
       font-size: 32px;
       padding-bottom: 10px;
-      animation: moveLeft ease 2s;
+      animation: moveLeft 2s;
     }
     &__title1 {
       color: $color;
@@ -31,10 +31,11 @@
       letter-spacing: 2px;
 
       @include tablet {
-        font-size: 32px;
+        font-size: 34px;
         padding-bottom: 10px;
       }
       @include desktop {
+        font-size: 38px;
       }
     }
     &__title2 {
@@ -44,7 +45,10 @@
       letter-spacing: 2px;
     }
     @include tablet {
-      font-size: 26px;
+      font-size: 28px;
+    }
+    @include desktop {
+      font-size: 32px;
     }
   }
   &__img {

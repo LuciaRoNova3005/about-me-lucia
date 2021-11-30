@@ -8,6 +8,12 @@
     color: $color;
     font-size: 12px;
     margin: 5px;
+    @include tablet {
+      font-size: 16px;
+    }
+    @include desktop {
+      font-size: 20px;
+    }
   }
   &__link {
     &:hover {
@@ -20,13 +26,19 @@
   color: $color;
   font-size: 16px;
   @include tablet {
-    font-size: 22px;
+    font-size: 20px;
+  }
+  @include desktop {
+    font-size: 24px;
   }
 }
 .far {
   color: $color;
   font-size: 16px;
   @include tablet {
-    font-size: 22px;
+    font-size: 20px;
+  }
+  @include desktop {
+    font-size: 24px;
   }
 }
