@@ -15,6 +15,7 @@
     margin-bottom: 10px;
     @include tablet {
       padding: 24px;
+      line-height: 20px;
     }
     @include desktop {
       padding: 28px;

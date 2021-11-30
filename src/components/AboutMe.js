@@ -44,8 +44,8 @@ function AboutMe() {
             programación.
           </p>
           <p className="text">
-            Me considero una persona trabajadora creativa, con buen humor y
-            habituada trabajar en equipo
+            Soy una persona trabajadora creativa, con buen humor y habituada
+            trabajar en equipo
           </p>
         </article>
       </section>
