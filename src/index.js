@@ -5,7 +5,17 @@ import "./stylesheets/App.scss";
 import App from "./components/App";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
+import footer_es from "./languages/es/footer.json";
 
+i18next.init({
+  interpolation: { escapeValue: false },
+  lng: "es",
+  resources: {
+    es: {
+      footer: footer_es,
+    },
+  },
+});
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>

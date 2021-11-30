@@ -1,4 +1,8 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
+  const [t, i18n] = useTranslation("footer");
   return (
     <footer id="contact" className="footer">
       <div className="arrow">
@@ -6,8 +10,8 @@ const Footer = () => {
           <i class="fas fa-arrow-up"></i>
         </a>
       </div>
-      <h3 className="title3">Contacto</h3>
-      <p className="footer__text">No dudes en contactar conmigo ¡hablemos!</p>
+      <h3 className="title3">{t("footer.title")}</h3>
+      <p className="footer__text">{t("footer.text")}</p>
       <div className="footer__item">
         <a
           className="footer__item__link"
@@ -28,7 +32,6 @@ const Footer = () => {
           <p className="footer__item__link__text">Linkedin</p>
         </a>
       </div>
-
       <small className="footer__copy">
         <p className="">&copy; 2021 Lucía Rodríguez Nova</p>
       </small>
