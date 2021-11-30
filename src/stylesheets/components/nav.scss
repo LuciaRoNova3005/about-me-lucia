@@ -37,14 +37,14 @@
   }
 }
 .btn {
-  background-color: $color;
-  border: 1px solid $color-primary;
-  border-radius: 50%;
-  color: $color-primary;
   margin: 3px;
   padding: 2px;
   font-weight: bold;
   font-size: 10px;
+  background-color: $color;
+  border: 1px solid $color-primary;
+  border-radius: 50%;
+  color: $color-primary;
   &:hover {
     cursor: pointer;
   }
@@ -54,7 +54,6 @@
     border-radius: 50%;
     color: $color;
   }
-
   @include tablet {
     font-size: 16px;
   }
