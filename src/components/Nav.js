@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Nav = () => {
+  const [t, i18n] = useTranslation("nav");
   return (
     <nav className="nav">
       <ul className="nav__list">
@@ -20,8 +22,12 @@ const Nav = () => {
           </a>
         </li>
         <li>
-          <button className="btn es">ES</button>
-          <button className="btn en">EN</button>
+          <button className="btn es" onClick={() => i18n.changeLanguage("es")}>
+            ES
+          </button>
+          <button className="btn en" onClick={() => i18n.changeLanguage("en")}>
+            EN
+          </button>
         </li>
       </ul>
     </nav>

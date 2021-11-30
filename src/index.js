@@ -6,6 +6,7 @@ import App from "./components/App";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import footer_es from "./languages/es/footer.json";
+import footer_en from "./languages/en/footer.json";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -13,6 +14,9 @@ i18next.init({
   resources: {
     es: {
       footer: footer_es,
+    },
+    en: {
+      footer: footer_en,
     },
   },
 });
