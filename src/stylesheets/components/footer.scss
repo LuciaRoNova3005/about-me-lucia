@@ -26,7 +26,7 @@
     flex-direction: row;
     text-align: center;
 
-    animation: moveLeft 1s;
+    animation: moveLeft 1s ease forwards;
     justify-content: center;
     &__link {
       color: $color;

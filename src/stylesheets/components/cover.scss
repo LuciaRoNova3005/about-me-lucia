@@ -22,17 +22,7 @@
     @include tablet {
       font-size: 32px;
       padding-bottom: 10px;
-      animation: moveLeft ease 2s;
-      @keyframes moveLeft {
-        from {
-          transform: translate(-300px, 0);
-          opacity: 0;
-        }
-        to {
-          transform: translate(0);
-          opacity: 100%;
-        }
-      }
+      animation: moveLeft 2s ease forwards;
     }
     &__title1 {
       color: $color;
@@ -72,19 +62,19 @@
       margin-top: 50px;
       width: 200px;
       height: 200px;
-      animation: moveLeft ease 2s;
-      @keyframes moveLeft {
-        from {
-          transform: translate(-300px, 0);
-          opacity: 0;
-        }
-        to {
-          transform: translate(0);
-          opacity: 100%;
-        }
-      }
+      animation: moveLeft 1s ease forwards;
     }
     @include desktop {
     }
+  }
+}
+@keyframes moveLeft {
+  from {
+    transform: translate(-300px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 100%;
   }
 }
