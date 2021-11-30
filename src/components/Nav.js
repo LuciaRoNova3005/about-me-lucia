@@ -8,17 +8,17 @@ const Nav = () => {
       <ul className="nav__list">
         <li className="nav__list__item">
           <a className="nav__list__item__link" href="#projects">
-            Proyectos
+            {t("nav.nav1")}
           </a>
         </li>
         <li className="nav__list__item">
           <a className="nav__list__item__link" href="#aboutme">
-            Sobre mi
+            {t("nav.nav2")}
           </a>
         </li>
         <li className="nav__list__item">
           <a className="nav__list__item__link" href="#contact">
-            Contacto
+            {t("nav.nav3")}
           </a>
         </li>
         <li>

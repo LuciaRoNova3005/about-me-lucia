@@ -1,4 +1,8 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+
 function LinkContact() {
+  const [t, i18n] = useTranslation("cover");
   return (
     <div className="linkContainer">
       <a
@@ -11,7 +15,7 @@ function LinkContact() {
           <i className="fab fa-github"></i>
         </span>
         <span>
-          <p className="linkContainer__text">Ir a github</p>
+          <p className="linkContainer__text">{t("cover.github")}</p>
         </span>
       </a>
       <a
@@ -23,7 +27,7 @@ function LinkContact() {
         <span>
           <i className="fab fa-linkedin-in"></i>
           <span>
-            <p className="linkContainer__text">Ver linkedin</p>
+            <p className="linkContainer__text">{t("cover.linkedin")}</p>
           </span>
         </span>
       </a>
@@ -37,7 +41,7 @@ function LinkContact() {
           <i className="far fa-file-pdf"></i>
         </span>
         <span>
-          <p className="linkContainer__text">Descargar cv</p>
+          <p className="linkContainer__text">{t("cover.cv")}</p>
         </span>
       </a>
     </div>

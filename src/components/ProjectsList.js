@@ -1,10 +1,8 @@
 import React from "react";
 import projects from "../data/projects";
 import Project from "../components/Project";
-import { useTranslation } from "react-i18next";
 
 function ProjectList() {
-  const [t, i18n] = useTranslation("project");
   const projectsElements = projects.map((project) => {
     return (
       <li className="projects__list__item" key={project.id}>
