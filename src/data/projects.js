@@ -1,9 +1,9 @@
-import Rick from "../../img/RickandMorty.png";
-import Series from "../../img/Series.png";
-import Listen from "../../img/Listen-to-my-card.png";
-import Pokemon from "../../img/Pokemon.png";
-import Compra from "../../img/Lista-compra.png";
-import Anonymous from "../../img/Anonymous.png";
+import Rick from "../img/RickandMorty.png";
+import Series from "../img/Series.png";
+import Listen from "../img/Listen-to-my-card.png";
+import Pokemon from "../img/Pokemon.png";
+import Compra from "../img/Lista-compra.png";
+import Anonymous from "../img/Anonymous.png";
 
 const projects = [
   {

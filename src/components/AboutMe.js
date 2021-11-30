@@ -1,11 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function AboutMe() {
+  const [t, i18n] = useTranslation("aboutme");
   return (
     <>
       <section className="aboutme">
         <article className="aboutme__skills">
-          <h3 className="title3">Skills</h3>
+          <h3 className="title3">{t("aboutme.title")}</h3>
           <ul className="aboutme__skills__list">
             <li className="aboutme__skills__list__item">
               <i class="icon fab fa-html5"></i>
@@ -37,16 +39,9 @@ function AboutMe() {
           </ul>
         </article>
         <article id="aboutme" className="aboutme__article">
-          <h3 className="title3">Sobre mi</h3>
-          <p className="text">
-            Con formación en publicidad y realización de audiovisuales tras
-            trabajar en proyectos de IT se despertó mi interés por la
-            programación.
-          </p>
-          <p className="text">
-            Soy una persona trabajadora creativa, con buen humor y habituada
-            trabajar en equipo
-          </p>
+          <h3 className="title3">{t("aboutme.title2")}</h3>
+          <p className="text">{t("aboutme.text")}</p>
+          <p className="text">{t("aboutme.text2")}</p>
         </article>
       </section>
     </>

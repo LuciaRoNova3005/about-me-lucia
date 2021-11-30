@@ -5,6 +5,8 @@ import "./stylesheets/App.scss";
 import App from "./components/App";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
+import aboutme_es from "./languages/es/aboutme.json";
+import aboutme_en from "./languages/en/aboutme.json";
 import footer_es from "./languages/es/footer.json";
 import footer_en from "./languages/en/footer.json";
 
@@ -13,9 +15,11 @@ i18next.init({
   lng: "es",
   resources: {
     es: {
+      aboutme: aboutme_es,
       footer: footer_es,
     },
     en: {
+      aboutme: aboutme_en,
       footer: footer_en,
     },
   },
