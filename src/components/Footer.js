@@ -7,9 +7,7 @@ const Footer = () => {
         </a>
       </div>
       <h3 className="title3">Contacto</h3>
-      <p className="footer__tittle3">
-        No dudes en contactar conmigo ¡hablemos!
-      </p>
+      <p className="footer__text">No dudes en contactar conmigo ¡hablemos!</p>
       <div className="footer__item">
         <a
           className="footer__item__link"
@@ -18,7 +16,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <i class="far fa-envelope"></i>
-          <p className="">Mail</p>
+          <p className="footer__item__link__text">Mail</p>
         </a>
         <a
           className="footer__item__link"
@@ -27,7 +25,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <i className="fab fa-linkedin-in"></i>
-          <p className="">Linkedin</p>
+          <p className="footer__item__link__text">Linkedin</p>
         </a>
       </div>
 

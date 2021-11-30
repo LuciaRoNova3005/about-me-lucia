@@ -8,28 +8,42 @@
   align-content: space-around;
   text-align: center;
 
-  &__tittle3 {
+  &__text {
     color: $color;
     margin: 10px;
     font-size: 16px;
     animation: moveLeft 1s;
 
     @include tablet {
-      font-size: 18px;
+      font-size: 20px;
+    }
+    @include desktop {
+      font-size: 24px;
     }
   }
   &__item {
     display: flex;
     flex-direction: row;
     text-align: center;
+
     animation: moveLeft 1s;
     justify-content: center;
     &__link {
       color: $color;
       padding: 10px;
+
       &:hover {
         text-shadow: grey 0.1em 0.1em 0.2em;
         transform: scale(1.2);
+      }
+      &__text {
+        font-weight: bold;
+      }
+      @include tablet {
+        font-size: 16px;
+      }
+      @include desktop {
+        font-size: 18px;
       }
     }
   }
@@ -60,7 +74,7 @@
 }
 @keyframes movedownup {
   from {
-    transform: translateY(-60%);
+    transform: translateY(-80%);
   }
   to {
     transform: translateY(-100%);
