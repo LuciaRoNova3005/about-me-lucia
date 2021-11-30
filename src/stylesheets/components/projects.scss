@@ -6,6 +6,10 @@
   color: $color;
   text-align: center;
   @include tablet {
+    padding: 20px;
+  }
+  @include desktop {
+    padding: 25px;
   }
   &__card {
     display: flex;
