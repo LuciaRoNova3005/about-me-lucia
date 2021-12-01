@@ -49,7 +49,7 @@ const projects_en = [
   },
   {
     id: 5,
-    title: "Tienda de camisetas",
+    title: "T-shirt store",
     img: Compra,
     description:
       "T-shirt online store. You can add the items to the cart and view the purchase details",
