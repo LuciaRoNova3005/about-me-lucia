@@ -18,21 +18,21 @@
     flex-direction: column;
     margin-top: 50px;
     text-align: center;
+    animation: moveLeft 1s ease;
+    @keyframes moveLeft {
+      from {
+        transform: translate(-300px, 0);
+        opacity: 0;
+      }
+      to {
+        transform: translate(0);
+        opacity: 100%;
+      }
+    }
 
     @include tablet {
       font-size: 32px;
       padding-bottom: 10px;
-      animation: moveLeft 2s ease;
-      @keyframes moveLeft {
-        from {
-          transform: translate(-300px, 0);
-          opacity: 0;
-        }
-        to {
-          transform: translate(0);
-          opacity: 100%;
-        }
-      }
     }
     &__title1 {
       color: $color;
@@ -67,22 +67,21 @@
     width: 100px;
     height: 100px;
     margin-top: 12px;
-
+    animation: moveLeft 1s ease;
+    @keyframes moveLeft {
+      from {
+        transform: translate(-300px, 0);
+        opacity: 0;
+      }
+      to {
+        transform: translate(0);
+        opacity: 100%;
+      }
+    }
     @include tablet {
       margin-top: 50px;
       width: 200px;
       height: 200px;
-      animation: moveLeft 2s ease;
-      @keyframes moveLeft {
-        from {
-          transform: translate(-300px, 0);
-          opacity: 0;
-        }
-        to {
-          transform: translate(0);
-          opacity: 100%;
-        }
-      }
     }
     @include desktop {
     }
