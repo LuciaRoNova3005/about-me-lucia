@@ -15,7 +15,7 @@ function ProjectList() {
       return projects_en;
     }
   };
-  console.log(i18next.language);
+
   const projectsElements = projectLanguage().map((project) => {
     return (
       <li className="projects__list__item" key={project.id}>

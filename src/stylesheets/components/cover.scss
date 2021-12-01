@@ -22,7 +22,7 @@
     @include tablet {
       font-size: 32px;
       padding-bottom: 10px;
-      animation: moveLeft 2s ease;
+      animation: moveLeft 1s ease forwards;
     }
     &__title1 {
       color: $color;
@@ -62,7 +62,7 @@
       margin-top: 50px;
       width: 200px;
       height: 200px;
-      animation: moveLeft 1s ease;
+      animation: moveLeft 1s ease forwards;
     }
     @include desktop {
     }
