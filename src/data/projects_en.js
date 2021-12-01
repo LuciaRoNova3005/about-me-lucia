@@ -10,17 +10,18 @@ const projects_en = [
     id: 1,
     title: "Rick and Morty",
     img: Rick,
-    description: "HELLO",
+    description:
+      "Responsive web page where you can search, filter and see in detail the characters of the series",
     website: "https://luciaronova3005.github.io/search-REACT/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/search-REACT",
     tools: "JavaScript, React, Css, Sass",
   },
   {
     id: 2,
-    title: "Buscador de series",
+    title: "Series finder",
     img: Series,
     description:
-      "Aplicación web para buscar tus series favoritas y guardarlas en el almacenamiento local",
+      "Web application to search your favorite series and save them in the local storage",
     website: "https://luciaronova3005.github.io/add-favorites-movies/",
     githubUrl: "https://github.com/LuciaRoNova3005/add-favorites-movies",
     tools: "JavaScript, Css",
@@ -30,7 +31,7 @@ const projects_en = [
     title: "Listen to my Card",
     img: Listen,
     description:
-      "Proyecto de equipo (refactorización de código) con el que puedes crear, personalizar, enviar y guardar tus tarjetas",
+      "Team project (code refactoring) with which you can create, customize, send and save your cards",
     website: "https://listentomycard.herokuapp.com/#/",
     githubUrl:
       "https://github.com/LuciaRoNova3005/listen-to-my-card-REACT-codigo-heredado",
@@ -39,10 +40,9 @@ const projects_en = [
 
   {
     id: 4,
-    title: "Lista de Pokemon",
+    title: "Pokemon List",
     img: Pokemon,
-    description:
-      "Lista de Pokemon que te permite seleccionar tus Pokemon favoritos",
+    description: "Pokemon list that allows you to select your favorite Pokemon",
     website: "https://luciaronova3005.github.io/pokelist/",
     githubUrl: "https://github.com/LuciaRoNova3005/pokelist",
     tools: "JavaScript, React, Css, Sass",
@@ -52,7 +52,7 @@ const projects_en = [
     title: "Tienda de camisetas",
     img: Compra,
     description:
-      "Tienda online de camisetas. Se pueden añadir los artículos a la cesta y ver los detalles  de la compra",
+      "T-shirt online store. You can add the items to the cart and view the purchase details",
     website: "https://luciaronova3005.github.io/t-shirt-shop/",
     githubUrl: "https://github.com/LuciaRoNova3005/t-shirt-shop",
     tools: "JavaScript, Sass, Css",
@@ -61,7 +61,7 @@ const projects_en = [
     id: 6,
     title: "Anonymous Proxy",
     img: Anonymous,
-    description: "Página web y su adaptación a los distintos dispositivos",
+    description: "Website and its adaptation to different devices",
     website: "https://luciaronova3005.github.io/SCSS-HTML/",
     githubUrl: "https://github.com/LuciaRoNova3005/SCSS-HTML",
     tools: "Html, Sass, Css",

@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 function ProjectList() {
   const [t, i18next] = useTranslation("proyect");
-  const projectId = () => {
+  const projectLanguage = () => {
     const projects = i18next.language;
     if (projects === "es") {
       console.log(projects_es);
@@ -16,7 +16,7 @@ function ProjectList() {
     }
   };
   console.log(i18next.language);
-  const projectsElements = projectId().map((project) => {
+  const projectsElements = projectLanguage().map((project) => {
     return (
       <li className="projects__list__item" key={project.id}>
         <Project
