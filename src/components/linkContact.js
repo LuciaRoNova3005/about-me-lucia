@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 function LinkContact() {
-  const [t, i18n] = useTranslation("cover");
+  const [t] = useTranslation("cover");
   return (
     <div className="linkContainer">
       <a

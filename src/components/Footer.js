@@ -2,7 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [t, i18n] = useTranslation("footer");
+  const [t] = useTranslation("footer");
+
   return (
     <footer id="contact" className="footer">
       <div className="arrow">

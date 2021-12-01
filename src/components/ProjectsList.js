@@ -1,9 +1,22 @@
 import React from "react";
-import projects from "../data/projects";
+import projects_es from "../data/projects_es";
+import projects_en from "../data/projects_en";
 import Project from "../components/Project";
+import { useTranslation } from "react-i18next";
 
 function ProjectList() {
-  const projectsElements = projects.map((project) => {
+  const [t, i18next] = useTranslation("proyect");
+  const projectId = () => {
+    const projects = i18next.language;
+    if (projects === "es") {
+      console.log(projects_es);
+      return projects_es;
+    } else if (projects === "en") {
+      return projects_en;
+    }
+  };
+  console.log(i18next.language);
+  const projectsElements = projectId().map((project) => {
     return (
       <li className="projects__list__item" key={project.id}>
         <Project
@@ -21,10 +34,10 @@ function ProjectList() {
 
   return (
     <section className="projects" id="projects">
-      <h3 className="title3 ">Proyectos</h3>
+      <h3 className="title3 ">{t("proyect.title")}</h3>
       <ul className="projects__list">{projectsElements}</ul>
       <article className="others_proyects">
-        <h3 className="title4 ">Otros proyectos</h3>
+        <h3 className="title4 ">{t("proyect.title2")}</h3>
         <a className="text2" href="https://www.jaenparaisointerior.es/">
           <p className="text_others">
             Jaén Paraíso Interior // Liferay

@@ -5,13 +5,12 @@ import Pokemon from "../img/Pokemon.png";
 import Compra from "../img/Lista-compra.png";
 import Anonymous from "../img/Anonymous.png";
 
-const projects = [
+const projects_en = [
   {
     id: 1,
     title: "Rick and Morty",
     img: Rick,
-    description:
-      "Página web responsive en la que puedes buscar, filtrar y ver con detalle los personajes de la serie",
+    description: "HELLO",
     website: "https://luciaronova3005.github.io/search-REACT/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/search-REACT",
     tools: "JavaScript, React, Css, Sass",
@@ -68,4 +67,4 @@ const projects = [
     tools: "Html, Sass, Css",
   },
 ];
-export default projects;
+export default projects_en;

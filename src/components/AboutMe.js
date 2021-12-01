@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 function AboutMe() {
-  const [t, i18n] = useTranslation("aboutme");
+  const [t] = useTranslation("aboutme");
   return (
     <>
       <section className="aboutme">
