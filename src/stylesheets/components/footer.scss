@@ -7,7 +7,9 @@
   justify-content: center;
   align-content: space-around;
   text-align: center;
-
+  &__title {
+    color: $color;
+  }
   &__text {
     color: $color;
     margin: 10px;
@@ -70,9 +72,17 @@
   border: none;
   text-align: center;
   animation: movedownup 1s infinite;
+  @include tablet {
+    width: 40px;
+    height: 40px;
+  }
 }
 .fa-arrow-up {
   padding-top: 5px;
+  @include tablet {
+    padding-top: 10px;
+    font-size: 20px;
+  }
   &:hover {
     text-shadow: grey 0.1em 0.1em 0.2em;
     transform: scale(1.2);
