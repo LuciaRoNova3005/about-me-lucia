@@ -60,6 +60,7 @@
 }
 
 .title3 {
+  font-family: "Noto Sans Mono", monospace;
   color: $color;
   padding-bottom: 5px;
   font-size: 20px;
@@ -67,17 +68,18 @@
   font-weight: bold;
   text-transform: uppercase;
   @include tablet {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   @include desktop {
-    font-size: 28px;
+    font-size: 30px;
   }
 }
 .text {
   color: $color;
   font-size: 16px;
   padding-top: 10px;
+  font-family: "Roboto Condensed", sans-serif;
   @include tablet {
     font-size: 20px;
     padding-top: 20px;

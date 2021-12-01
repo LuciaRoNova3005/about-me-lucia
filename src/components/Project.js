@@ -14,6 +14,7 @@ function Project(props) {
         <div className="projects__card__infor__text">
           <h4 className="title4">{props.name}</h4>
           <p className="text">{props.description}</p>
+          <p className="projects__card__infor__text__tools">{props.tools}</p>
           <div className="projects__card__infor__text__link">
             <a href={props.git} target="_blank" rel="noreferrer">
               <i class="iconlink fab fa-github"></i>
@@ -22,8 +23,6 @@ function Project(props) {
               <i class="iconlink fas fa-laptop"></i>
             </a>
           </div>
-
-          <p className="tools">{props.tools}</p>
         </div>
       </div>
     </article>

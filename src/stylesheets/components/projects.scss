@@ -60,6 +60,18 @@
           text-align: center;
           width: 50%;
         }
+        &__tools {
+          font-family: "Noto Sans Mono", monospace;
+          font-size: 14px;
+          padding: 10px;
+          padding-top: 20px;
+          @include tablet {
+            font-size: 18px;
+          }
+          @include desktop {
+            font-size: 22px;
+          }
+        }
       }
     }
   }
@@ -67,23 +79,23 @@
 
 .iconlink {
   color: $color;
-  font-size: 16px;
-  padding: 5px;
+  font-size: 24px;
+  margin: 10px 15px 10px 16px;
   &:hover {
     transform: scale(1.2);
   }
   @include tablet {
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px;
   }
   @include desktop {
     padding: 12px;
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 .title4 {
   color: $color-tercery;
-
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: bold;
   @include tablet {
@@ -107,15 +119,7 @@
     transform: scale(1.2);
   }
 }
-.tools {
-  font-size: 14px;
-  @include tablet {
-    font-size: 18px;
-  }
-  @include desktop {
-    font-size: 22px;
-  }
-}
+
 .text_others {
   font-size: 14px;
   padding: 16px;
@@ -128,7 +132,7 @@
 }
 .iconlink2 {
   color: $color;
-  font-size: 16px;
+  font-size: 20px;
   padding: 5px;
 
   @include tablet {

@@ -27,14 +27,7 @@
     text-align: center;
     animation: moveLeft 1s ease;
     justify-content: center;
-    @keyframes movedownup {
-      from {
-        transform: translateY(-80%);
-      }
-      to {
-        transform: translateY(-100%);
-      }
-    }
+
     &__link {
       color: $color;
       padding: 10px;
@@ -83,5 +76,13 @@
   &:hover {
     text-shadow: grey 0.1em 0.1em 0.2em;
     transform: scale(1.2);
+  }
+}
+@keyframes movedownup {
+  from {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(-100%);
   }
 }
