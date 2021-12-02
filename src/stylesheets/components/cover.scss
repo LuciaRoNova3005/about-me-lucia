@@ -70,10 +70,8 @@
 @keyframes moveLeft {
   from {
     transform: translate(-400px, 0);
-    opacity: 50%;
   }
   to {
     transform: translate(0);
-    opacity: 100%;
   }
 }
