@@ -18,7 +18,6 @@
     margin-top: 50px;
     text-align: center;
     animation: moveLeft 2s ease;
-    animation: opac 2s ease;
 
     @include tablet {
       font-size: 32px;
@@ -58,7 +57,7 @@
     height: 100px;
     margin-top: 12px;
     animation: moveLeft 2s ease;
-    animation: opac 2s ease;
+
     @include tablet {
       margin-top: 50px;
       width: 200px;
@@ -71,16 +70,10 @@
 @keyframes moveLeft {
   from {
     transform: translate(-400px, 0);
+    opacity: 50%;
   }
   to {
     transform: translate(0);
-  }
-}
-@keyframes opac {
-  from {
-    opacity: 0;
-  }
-  to {
     opacity: 100%;
   }
 }
