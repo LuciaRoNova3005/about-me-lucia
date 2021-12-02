@@ -11,7 +11,7 @@ const Footer = () => {
           <i class="fas fa-arrow-up"></i>
         </a>
       </div>
-      <h3 className="title3 footer__title">{t("footer.title")}</h3>
+      <h3 className="title3 footer__tittle">{t("footer.title")}</h3>
       <p className="footer__text">{t("footer.text")}</p>
       <div className="footer__item">
         <a
