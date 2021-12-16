@@ -150,6 +150,7 @@
 .text_others {
   font-size: 14px;
   padding: 16px;
+
   @include tablet {
     font-size: 20px;
   }

@@ -1,6 +1,7 @@
 {
     "proyect":{
         "title":"Proyectos",
-        "title2": "Otros proyectos"
+        "title2": "Otros proyectos",
+        "textLink": "Ir al repositorio"
     }
 }
