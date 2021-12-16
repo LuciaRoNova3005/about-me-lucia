@@ -72,27 +72,57 @@
             font-size: 22px;
           }
         }
+        &__link {
+          color: $color;
+          font-size: 16px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            transform: scale(1.2);
+          }
+          @include tablet {
+            font-size: 20px;
+          }
+          @include desktop {
+            font-size: 24px;
+          }
+          &__iconlink {
+            color: $color;
+            border: 2px solid $color-tercery;
+            border-radius: 20px;
+            font-size: 30px;
+            margin: 10px 15px 10px 16px;
+            &:hover {
+              transform: scale(1.2);
+            }
+            @include tablet {
+              font-size: 30px;
+              padding: 10px;
+            }
+            @include desktop {
+              padding: 12px;
+              font-size: 30px;
+            }
+          }
+          &__urlText {
+            color: $color;
+            font-size: 14px;
+            font-family: "Roboto Condensed", sans-serif;
+            @include tablet {
+              font-size: 18px;
+            }
+            @include desktop {
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
   }
 }
 
-.iconlink {
-  color: $color;
-  font-size: 30px;
-  margin: 10px 15px 10px 16px;
-  &:hover {
-    transform: scale(1.2);
-  }
-  @include tablet {
-    font-size: 30px;
-    padding: 10px;
-  }
-  @include desktop {
-    padding: 12px;
-    font-size: 30px;
-  }
-}
 .title4 {
   color: $color-tercery;
   font-family: "Roboto Condensed", sans-serif;
