@@ -4,16 +4,19 @@
   justify-content: space-around;
   margin-right: 10px;
   margin-top: 5px;
+  @include tablet {
+    margin-top: 30px;
+  }
   &__text {
     color: $color;
     font-size: 12px;
     margin: 5px;
     @include tablet {
       font-size: 16px;
-      margin-right: 20px;
+      margin: 30px;
     }
     @include desktop {
-      font-size: 18px;
+      font-size: 22px;
     }
   }
   &__link {
@@ -30,7 +33,7 @@
     font-size: 20px;
   }
   @include desktop {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 .far {
@@ -40,6 +43,6 @@
     font-size: 20px;
   }
   @include desktop {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
