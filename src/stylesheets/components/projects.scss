@@ -79,18 +79,18 @@
 
 .iconlink {
   color: $color;
-  font-size: 24px;
+  font-size: 30px;
   margin: 10px 15px 10px 16px;
   &:hover {
     transform: scale(1.2);
   }
   @include tablet {
-    font-size: 24px;
+    font-size: 30px;
     padding: 10px;
   }
   @include desktop {
     padding: 12px;
-    font-size: 28px;
+    font-size: 30px;
   }
 }
 .title4 {
