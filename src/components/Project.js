@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Project(props) {
+  const [t] = useTranslation("proyect");
   return (
     <article className="projects__card" id={props.id} key={props.id}>
       <div className="projects__card__infor">
@@ -23,7 +25,7 @@ function Project(props) {
           >
             <i class="projects__card__infor__text__link__iconlink fab fa-github"></i>
             <p className="projects__card__infor__text__link__urlText">
-              Ir al repositorio
+              {t("proyect.text")}
             </p>
           </a>
         </div>

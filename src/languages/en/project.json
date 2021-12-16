@@ -1,6 +1,7 @@
 {
     "proyect":{
         "title":"Projects",
-        "title2": "Another projects"
+        "title2": "Another projects",
+        "text":"Go to repository"
     }
 }
