@@ -73,7 +73,7 @@
           }
         }
         &__link {
-          color: $color;
+          color: $color-tercery;
           font-size: 16px;
           display: flex;
           flex-direction: row;
@@ -89,9 +89,6 @@
             font-size: 24px;
           }
           &__iconlink {
-            color: $color;
-            border: 2px solid $color-tercery;
-            border-radius: 20px;
             font-size: 30px;
             margin: 10px 15px 10px 16px;
             &:hover {
@@ -107,7 +104,7 @@
             }
           }
           &__urlText {
-            color: $color;
+            color: $color-tercery;
             font-size: 14px;
             font-family: "Roboto Condensed", sans-serif;
             @include tablet {

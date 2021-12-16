@@ -15,7 +15,6 @@ function Project(props) {
           <h4 className="title4">{props.name}</h4>
           <p className="text">{props.description}</p>
           <p className="projects__card__infor__text__tools">{props.tools}</p>
-          {/* <div className="projects__card__infor__text__link"> */}
           <a
             className="projects__card__infor__text__link"
             href={props.git}
@@ -27,13 +26,8 @@ function Project(props) {
               Ir al repositorio
             </p>
           </a>
-
-          {/* <a href={props.web} target="_blank" rel="noreferrer">
-              <i class="iconlink fas fa-laptop"></i>
-            </a> */}
         </div>
       </div>
-      {/* </div> */}
     </article>
   );
 }
