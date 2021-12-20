@@ -54,11 +54,20 @@
     border-radius: 50%;
     color: $color;
   }
+
   @include tablet {
     font-size: 16px;
   }
   @include desktop {
     font-size: 20px;
     padding: 4px;
+  }
+}
+.idiom {
+  :visited {
+    background-color: $color-primary;
+    border: 1px solid $color;
+    border-radius: 50%;
+    color: $color;
   }
 }
