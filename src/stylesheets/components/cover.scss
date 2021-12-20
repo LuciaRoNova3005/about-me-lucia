@@ -25,16 +25,15 @@
     }
     &__title1 {
       color: $color;
-      font-size: 30px;
+      font-size: 34px;
       font-weight: bold;
       letter-spacing: 2px;
-
       @include tablet {
-        font-size: 34px;
+        font-size: 38px;
         padding-bottom: 30px;
       }
       @include desktop {
-        font-size: 38px;
+        font-size: 40px;
       }
     }
     &__title2 {
@@ -42,12 +41,12 @@
       font-size: 24px;
       padding-bottom: 10px;
       letter-spacing: 2px;
-    }
-    @include tablet {
-      font-size: 28px;
-    }
-    @include desktop {
-      font-size: 38px;
+      @include tablet {
+        font-size: 30px;
+      }
+      @include desktop {
+        font-size: 38px;
+      }
     }
   }
   &__img {
