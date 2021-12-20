@@ -11,7 +11,7 @@ const projects_en = [
     title: "Rick and Morty",
     img: Rick,
     description:
-      "Responsive web page where you can search, filter and see in detail the characters of the series",
+      "Responsive web page where you can search, filter and see in detail the characters of the series.",
     website: "https://luciaronova3005.github.io/search-REACT/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/search-REACT",
     tools: "JavaScript, React, Css, Sass",
@@ -35,7 +35,7 @@ const projects_en = [
     website: "https://listentomycard.herokuapp.com/#/",
     githubUrl:
       "https://github.com/LuciaRoNova3005/listen-to-my-card-REACT-codigo-heredado",
-    tools: "JavaScript, React, SQlite, Css",
+    tools: "JavaScript, React, SQlite",
   },
 
   {
