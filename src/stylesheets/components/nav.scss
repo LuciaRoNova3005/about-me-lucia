@@ -47,6 +47,10 @@
   color: $color-primary;
   &:hover {
     cursor: pointer;
+    background-color: $color-primary;
+    border: 1px solid $color;
+    border-radius: 50%;
+    color: $color;
   }
   &:focus {
     background-color: $color-primary;
@@ -61,13 +65,5 @@
   @include desktop {
     font-size: 20px;
     padding: 4px;
-  }
-}
-.idiom {
-  :visited {
-    background-color: $color-primary;
-    border: 1px solid $color;
-    border-radius: 50%;
-    color: $color;
   }
 }

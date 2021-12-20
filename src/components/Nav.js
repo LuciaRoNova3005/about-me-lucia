@@ -25,7 +25,6 @@ const Nav = () => {
           <button className="btn es" onClick={() => i18n.changeLanguage("es")}>
             ES
           </button>
-
           <button className="btn en" onClick={() => i18n.changeLanguage("en")}>
             EN
           </button>
