@@ -15,7 +15,6 @@
     margin: 10px;
     font-size: 16px;
     animation: moveLeft 1s;
-
     @include tablet {
       font-size: 20px;
     }
@@ -30,6 +29,10 @@
     animation: moveLeft 1s ease;
     justify-content: center;
 
+    @include tablet {
+      padding: 20px;
+    }
+
     &__link {
       color: $color;
       padding: 10px;
@@ -40,12 +43,12 @@
       }
       &__text {
         font-weight: bold;
-      }
-      @include tablet {
-        font-size: 16px;
-      }
-      @include desktop {
-        font-size: 18px;
+        @include tablet {
+          font-size: 16px;
+        }
+        @include desktop {
+          font-size: 18px;
+        }
       }
     }
   }

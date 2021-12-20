@@ -6,7 +6,12 @@
   background-color: $color-secundary;
   letter-spacing: 2px;
   border-top: 1px solid $color;
-
+  @include tablet {
+    padding: 20px;
+  }
+  @include desktop {
+    padding: 20px;
+  }
   &__article {
     color: $color;
     padding: 20px;
