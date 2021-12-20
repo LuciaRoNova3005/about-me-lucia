@@ -39,7 +39,7 @@ function ProjectList() {
       <article className="others_proyects">
         <h3 className="title4 ">{t("proyect.title2")}</h3>
         <a className="text2" href="https://www.jaenparaisointerior.es/">
-          <p className="text_others">
+          <p className="text">
             Jaén Paraíso Interior // Liferay
             <i class="iconlink2 fas fa-laptop-code"></i>
           </p>

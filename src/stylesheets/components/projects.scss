@@ -146,16 +146,6 @@
   }
 }
 
-.text_others {
-  font-size: 14px;
-
-  @include tablet {
-    font-size: 20px;
-  }
-  @include desktop {
-    font-size: 24px;
-  }
-}
 .iconlink2 {
   color: $color;
   font-size: 20px;
