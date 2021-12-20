@@ -6,10 +6,8 @@
   color: $color;
   text-align: center;
   @include tablet {
-    padding: 20px;
   }
   @include desktop {
-    padding: 25px;
   }
   &__card {
     display: flex;
@@ -19,11 +17,10 @@
     border-bottom: 1px solid white;
 
     @include tablet {
-      margin: 30px;
+      margin: 20px;
     }
     @include desktop {
-      margin: 50px;
-      margin-bottom: 80px;
+      margin: 24px;
     }
     &__infor {
       display: flex;
@@ -49,7 +46,6 @@
         @include tablet {
           width: auto;
           height: 160px;
-          margin: 30px;
         }
 
         @include desktop {
@@ -140,7 +136,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 10px;
   color: $color;
 }
 .text2 {
@@ -153,7 +148,6 @@
 
 .text_others {
   font-size: 14px;
-  padding: 16px;
 
   @include tablet {
     font-size: 20px;
