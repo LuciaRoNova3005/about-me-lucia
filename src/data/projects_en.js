@@ -32,7 +32,7 @@ const projects_en = [
     title: "Star Wars finder",
     img: StarWars,
     description:
-      "Star wars character finder that allows us to save them in favorites and see the detail of the characters through a modal",
+      "Star Wars character finder that allows us to save them in favorites and see the detail of the characters through a modal",
     website: "https://luciaronova3005.github.io/stars-wars-api/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/stars-wars-api",
     tools: "JavaScript, React, Css, Sass",

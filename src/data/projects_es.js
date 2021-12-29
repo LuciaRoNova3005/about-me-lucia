@@ -31,7 +31,7 @@ const projects_es = [
     title: "Buscador Star Wars",
     img: StarWars,
     description:
-      "Buscador de personajes de star wars que nos permite guardarlos en favoritos y ver el detalle del personajes mediante una modal",
+      "Buscador de personajes de Star Wars que nos permite guardarlos en favoritos y ver el detalle del personajes mediante una modal",
     website: "https://luciaronova3005.github.io/stars-wars-api/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/stars-wars-api",
     tools: "JavaScript, React, Css, Sass",
