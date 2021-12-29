@@ -29,7 +29,7 @@ const projects_en = [
 
   {
     id: 3,
-    title: "Star Wars",
+    title: "Star Wars finder",
     img: StarWars,
     description:
       "Star wars character finder that allows us to save them in favorites and see the detail of the characters through a modal",
