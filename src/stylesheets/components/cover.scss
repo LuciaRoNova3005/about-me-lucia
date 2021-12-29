@@ -61,8 +61,7 @@
       margin-top: 50px;
       width: 200px;
       height: 200px;
-    }
-    @include desktop {
+      border: 4px solid $color-tercery;
     }
   }
 }
