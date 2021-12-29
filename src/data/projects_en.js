@@ -1,9 +1,9 @@
 import Rick from "../img/RickandMorty.png";
 import Series from "../img/Series.png";
 import Listen from "../img/Listen-to-my-card.png";
-import Pokemon from "../img/Pokemon.png";
 import Compra from "../img/Lista-compra.png";
 import Anonymous from "../img/Anonymous.png";
+import StarWars from "../img/Star-Wars.png";
 
 const projects_en = [
   {
@@ -11,7 +11,7 @@ const projects_en = [
     title: "Rick and Morty",
     img: Rick,
     description:
-      "Responsive web page where you can search, filter and see in detail the characters of the series.",
+      "Responsive web page where you can search, filter and see in detail the characters of the series with pagination",
     website: "https://luciaronova3005.github.io/search-REACT/#/",
     githubUrl: "https://github.com/LuciaRoNova3005/search-REACT",
     tools: "JavaScript, React, Css, Sass",
@@ -26,29 +26,19 @@ const projects_en = [
     githubUrl: "https://github.com/LuciaRoNova3005/add-favorites-movies",
     tools: "JavaScript, Css",
   },
-  {
-    id: 3,
-    title: "Listen to my Card",
-    img: Listen,
-    description:
-      "Team project (code refactoring) with which you can create, customize, send and save your cards",
-    website: "https://listentomycard.herokuapp.com/#/",
-    githubUrl:
-      "https://github.com/LuciaRoNova3005/listen-to-my-card-REACT-codigo-heredado",
-    tools: "JavaScript, React, SQlite",
-  },
 
   {
-    id: 4,
-    title: "Pokemon List",
-    img: Pokemon,
-    description: "Pokemon list that allows you to select your favorite Pokemon",
-    website: "https://luciaronova3005.github.io/pokelist/",
-    githubUrl: "https://github.com/LuciaRoNova3005/pokelist",
+    id: 3,
+    title: "Star Wars",
+    img: StarWars,
+    description:
+      "Star wars character finder that allows us to save them in favorites and see the detail of the characters through a modal",
+    website: "https://luciaronova3005.github.io/stars-wars-api/#/",
+    githubUrl: "https://github.com/LuciaRoNova3005/stars-wars-api",
     tools: "JavaScript, React, Css, Sass",
   },
   {
-    id: 5,
+    id: 4,
     title: "T-shirt store",
     img: Compra,
     description:
@@ -58,13 +48,24 @@ const projects_en = [
     tools: "JavaScript, Sass, Css",
   },
   {
-    id: 6,
+    id: 5,
     title: "Anonymous Proxy",
     img: Anonymous,
     description: "Website and its adaptation to different devices",
     website: "https://luciaronova3005.github.io/SCSS-HTML/",
     githubUrl: "https://github.com/LuciaRoNova3005/SCSS-HTML",
     tools: "Html, Sass, Css",
+  },
+  {
+    id: 6,
+    title: "Listen to my Card",
+    img: Listen,
+    description:
+      "Team project (code refactoring) with which you can create, customize, send and save your cards",
+    website: "https://listentomycard.herokuapp.com/#/",
+    githubUrl:
+      "https://github.com/LuciaRoNova3005/listen-to-my-card-REACT-codigo-heredado",
+    tools: "JavaScript, React, SQlite",
   },
 ];
 export default projects_en;
