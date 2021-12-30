@@ -20,7 +20,7 @@ In this portfolio you'll find the projects I've been working on as a Frontend De
 To run this project, install it locally using $ **npm install** and, then, use $ **npm start**.
 
 ## About me 💻
-After working on IT projects, my interest in programming was awakened and I was encouraged to do a bootcamp in front-end development.
+After working on IT projects, my interest in programming was awakened and I was encouraged to do a bootcamp in front-end development.<br>
 I´m frontend developer base in Madrid, Spain
 
 ### Let's get in touch!! >> 
