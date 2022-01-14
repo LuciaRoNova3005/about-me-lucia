@@ -9,15 +9,14 @@
   @include tablet {
     padding: 20px;
   }
-  @include desktop {
-    padding: 20px;
-  }
+
   &__article {
     color: $color;
     padding: 20px;
     line-height: 18px;
     border-top: 1px solid $color;
     margin-bottom: 10px;
+
     @include tablet {
       padding: 24px;
       line-height: 20px;
@@ -29,12 +28,12 @@
   &__skills {
     padding: 15px;
     margin: auto;
+
     @include tablet {
-      padding: 20px;
+      padding: 0px;
+      padding-bottom: 25px;
     }
-    @include desktop {
-      padding: 25px;
-    }
+
     &__list {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
